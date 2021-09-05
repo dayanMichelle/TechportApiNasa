@@ -61,9 +61,55 @@ button:hover{
 }
 
 /*estilos de la info*/
+.container-info{
+    max-width: 800px;
+   
+    margin: 30px auto;
+}
+
+.container-title{
+    width: auto;
+    background-color: #4C87AB;
+    height: auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+
 .title{
     font-weight: 700;
-    color: #E8DAEF;
-    font-size: 1.6em;
+    color: #7EBBE1;
+    font-size: 1.8em;
     margin-top:20px;
+}
+.subtitle{
+    margin-top: 10px;
+    font-size: 1.4em;
+    color: #D4E6F1;
+}
+.container-definition{
+    max-width: 500px;
+    height: auto;
+    padding: 20px;
+    background-color: #489ED3;
+}
+p{
+    margin-top: 15px;
+}
+.container-left{
+    font-size: 1.2em;
+    text-align: left;
+}
+.sub_title{
+    font-weight: 700;
+}
+
+.w3-button{
+    width: 40px;
+    height: 40px;
+  
+}
+.container-buttons{
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 20px;
 }

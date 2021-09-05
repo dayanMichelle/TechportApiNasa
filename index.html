@@ -4,25 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/main.css" />
     <title>Techport NASA</title>
   </head>
+
   <body>
     <div class="container">
-         <img src="./assets/icons/nasa.png" alt="">
-      <h1><span>NASA</span> Project Builder </h1>
-      
+      <img src="./assets/icons/nasa.png" alt="" />
+      <h1><span>NASA</span> Project Builder</h1>
+
       <button onclick="n()">RANDOM</button>
 
       <div id="container-info" class="container-info">
-        <p id="title"></p>
-        <p id="subtitle"></p>
+        <div class="container-title">
+          <p id="title"></p>
+          <p id="subtitle"></p>
+          <p id="statesWithWork"></p>
+          <p id="startDateString"></p>
+          <p id="lastUpdated"></p>
+          <div class="container-left">
+            <div class="container-buttons">
+               <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+           
+            </div>
+                <p  class="mySlides" id="definition"></p>
+                <p class="mySlides" id="exampleTechnologies"></p>
+                <p class="mySlides" id="description"></p>
+              
+          </div>
+        </div>
+       
       </div>
+ 
+       
+    </ul>
     </div>
     <div id="info" class="title"></div>
-   <script src="./assets/main.js"></script>
+    <script src="./assets/main.js"></script>
   </body>
 </html>
