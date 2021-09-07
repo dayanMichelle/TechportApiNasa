@@ -1,6 +1,6 @@
-
+//cambie la api_key que obtuviste por https://api.nasa.gov/
 const API_KEY = "Nws0rpOs4emEzL10p8NB2PupcGTTnQd7dqlcOetU";
-//obtener info segun id
+
 
 const request = new XMLHttpRequest();
 const ids = new XMLHttpRequest();
